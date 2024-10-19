@@ -141,6 +141,10 @@ p {
   height: 3.25rem;
 }
 
+.brand__logo {
+  border-radius: 50%;
+}
+
 #toggleTheme {
   font-size: 1.5rem;
   color: var(--primary-color);
@@ -243,7 +247,10 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-main, .projects, .about, .contact {
+main, 
+.projects, 
+.about, 
+.contact {
   padding: 2.5rem 1rem;
 }
 
@@ -684,7 +691,9 @@ footer p {
     padding: 12rem 15rem 2rem;
   }
   
-  .technologies, .projects, .about {
+  .technologies,
+  .projects, 
+  .about {
     padding: 10rem 15rem 4rem;
   }
 
