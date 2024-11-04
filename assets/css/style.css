@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap');
 
-:root, :root[data-theme='dark'] {
+:root, 
+:root[data-theme='dark'] {
   --primary-color: #F0F0F0;
 
   --primary-bg-color: #111217;
@@ -527,7 +528,8 @@ footer p {
   padding: 1rem;
 }
 
-/* Responsividade */
+/* RESPONSIVIDADE*/
+/* Estilos para tablets */
 @media (min-width: 768px) {
   .header {
     position: fixed;
@@ -584,6 +586,7 @@ footer p {
   }
 }
 
+/* Desktops Pequenos: Estilos para desktops pequenos */
 @media (min-width: 992px) {
   .projects__card {
     flex-direction: row;
@@ -619,6 +622,7 @@ footer p {
     }
 }
 
+/* Estilos para desktops médios */
 @media (min-width: 1200px) {
 
   h2 {
@@ -671,6 +675,7 @@ footer p {
   }
 }
 
+/* Estilos para desktops grandes */ 
 @media (min-width: 1400px) {
   h1 {
     font-size: 6.25rem;
